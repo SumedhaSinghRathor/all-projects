@@ -1,0 +1,508 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "designation": "Graphic Designer Intern",
+      "company": "Pehchaan the Street School",
+      "description": [
+        "Designed and produced over 84 Instagram stories and posts, maintaining consistency with the company's established brand identity, tone, and visual style.",
+        "Collaborated closely with the team by receiving weekly goals, delivering the output that aligned with brand objectives within the designated timeframe.",
+        "Tools Used: Figma, Photoshop, Canva"
+      ]
+    },
+    {
+      "id": 2,
+      "designation": "Summer Trainee",
+      "company": "GAIL (India) Limited",
+      "description": [
+        "Delved into SAP ABAP and gained valuable insights into applications at GAIL",
+        "Learned about the company's upcoming transition from ABAP to S/4 HANA",
+        "Created a 35+ page report on the migration analysis of the above topic"
+      ]
+    },
+    {
+      "id": 3,
+      "designation": "Lead Coordinator of UI/UX Domain",
+      "company": "E LABS",
+      "description": [
+        "Created 10+ posts using Figma or Photoshop for their Instagram page",
+        "Designed and protoyped the official website in Figma within 2 weeks",
+        "Taught as an instructor in 'DEZ-I-NIN' 2.0' workshop (which garnered 400+ registrations), teaching over 130+ students about UI/UX principles and responsive web design over the course of 3 weekends",
+        "Mentored over 20+ juniors under the UI/UX domain"
+      ]
+    },
+    {
+      "id": 4,
+      "designation": "Trainee Analyst",
+      "company": "Wissen Technology",
+      "description": [
+        "As an intern you will be working on some of the any of our company projects.",
+        "You shall also be expected to perform duties which are customarily associated with such positions.",
+        "The assignment details will be shared with you once you join."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "What Is Shoujo?",
+      "type": ["Full Stack"],
+      "desc": "What-is-Shoujo? is MERN stack web app that serves as a searchable database for Shoujo manga (demographic aimed at young women) with genre filters. It also acts as a personal reading tracker, letting users log progress, manage lists, and view detailed info.",
+      "link": "https://what-is-shoujo.vercel.app",
+      "frameworks": ["Node.js", "Express.js", "React.js"],
+      "tools": ["Tailwind CSS", "ReCharts"],
+      "language": ["JavaScript"],
+      "database": ["MongoDB"],
+      "github": "what-is-shoujo",
+      "logo": "/logo/comic.png",
+      "carousel": [
+        "/thumbnails/what-is-shoujo.vercel.app_.png",
+        "/thumbnails/what-is-shoujo.vercel.app_ (1).png",
+        "/thumbnails/what-is-shoujo.vercel.app_ (2).png",
+        "/thumbnails/what-is-shoujo.vercel.app_ (3).png",
+        "/thumbnails/what-is-shoujo.vercel.app_ (4).png",
+        "/thumbnails/what-is-shoujo.vercel.app_ (5).png",
+        "/thumbnails/what-is-shoujo.vercel.app_ (6).png",
+        "/thumbnails/what-is-shoujo.vercel.app_ (7).png",
+        "/thumbnails/what-is-shoujo.vercel.app_ (8).png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Random React Projects",
+      "type": ["Front End"],
+      "desc": "A collection of diverse web projects brought to life with smooth, expressive animations using Framer Motion.",
+      "link": "https://random-react-projects.vercel.app",
+      "frameworks": ["React.js"],
+      "tools": ["Tailwind CSS", "ReCharts", "Framer Motion"],
+      "language": ["JavaScript"],
+      "github": "random-react-projects",
+      "logo": "/logo/react.ico",
+      "carousel": [
+        "/thumbnails/random-react-projects.vercel.app_.png",
+        "/thumbnails/random-react-projects.vercel.app_ (1).png",
+        "/thumbnails/random-react-projects.vercel.app_ (2).png",
+        "/thumbnails/random-react-projects.vercel.app_ (3).png",
+        "/thumbnails/random-react-projects.vercel.app_ (4).png",
+        "/thumbnails/random-react-projects.vercel.app_calculator.png",
+        "/thumbnails/random-react-projects.vercel.app_kanban-board.png",
+        "/thumbnails/random-react-projects.vercel.app_nested-radius.png",
+        "/thumbnails/random-react-projects.vercel.app_stopwatch.png",
+        "/thumbnails/random-react-projects.vercel.app_textoverhill.png",
+        "/thumbnails/random-react-projects.vercel.app_textoverhill (1).png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Personal Music",
+      "type": ["Front End"],
+      "desc": "An animated music showcase that elegantly presents my favorite albums using smooth transitions and motion effects, powered by real-time data from the Spotify API. It blends visual flair with dynamic content to create an immersive listening-inspired experience.",
+      "link": "https://personal-music.vercel.app",
+      "frameworks": ["React.js"],
+      "tools": ["Tailwind CSS", "Framer Motion"],
+      "language": ["TypeScript"],
+      "github": "personal-music",
+      "logo": "/logo/personal-music.ico",
+      "carousel": [
+        "/thumbnails/personal-music.png",
+        "/thumbnails/personal-music_album.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "personal-portfolio",
+      "type": ["Front End"],
+      "desc": "Contains the the code and necessary items used in the portfolio. This website is made using only React.js (using the GSAP library for animations).",
+      "link": "https://sumedhasinghrathor.vercel.app",
+      "frameworks": ["React.js", "GSAP"],
+      "tools": ["Tailwind CSS", "ReCharts"],
+      "language": ["JavaScript"],
+      "github": "personal-portfolio",
+      "logo": "/logo/ssr.ico",
+      "carousel": [
+        "/thumbnails/sumedhasinghrathor.vercel.app_.png",
+        "/thumbnails/sumedhasinghrathor.vercel.app_ (1).png",
+        "/thumbnails/sumedhasinghrathor.vercel.app_ (2).png",
+        "/thumbnails/sumedhasinghrathor.vercel.app_ (3).png",
+        "/thumbnails/sumedhasinghrathor.vercel.app_ (4).png",
+        "/thumbnails/sumedhasinghrathor.vercel.app_ (5).png",
+        "/thumbnails/sumedhasinghrathor.vercel.app_ (6).png"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Notes Ki Dukaan",
+      "type": ["Full Stack"],
+      "desc": "A new note sharing app called 'Notes Ki Dukaan' where students can upload their own notes as well as view, rate and download notes from other faculties. Our powerful sorting and searching features will help students in organizing their notes and being prepared for their exams and sessionals.",
+      "link": "https://notes-ki-dukaan.vercel.app",
+      "frameworks": ["React.js", "Spring Boot"],
+      "tools": ["Tailwind CSS", "ReCharts"],
+      "language": ["JavaScript", "Java"],
+      "database": ["MongoDB"],
+      "github": "notes-ki-dukaan",
+      "logo": "/logo/nkd.ico",
+      "carousel": [
+        "/thumbnails/notes-ki-dukaan.vercel.app_home.png",
+        "/thumbnails/notes-ki-dukaan.vercel.app_home (1).png",
+        "/thumbnails/notes-ki-dukaan.vercel.app_user.png",
+        "/thumbnails/notes-ki-dukaan.vercel.app_view.png",
+        "/thumbnails/notes-ki-dukaan.vercel.app_view (1).png"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Stock Predictor",
+      "type": ["Full Stack"],
+      "desc": "A full-stack web application that fetches historical stock data, stores it in a database, and uses an LSTM (Long Short-Term Memory) deep learning model to predict future stock prices. Built with Flask for the backend, React for the frontend, and TensorFlow/Keras for the prediction logic.",
+      "link": "https://stock-predictor.vercel.app",
+      "frameworks": ["React.js", "Flask"],
+      "tools": ["Tailwind CSS", "ReCharts"],
+      "language": ["JavaScript", "Python"],
+      "database": ["PostgreSQL"],
+      "github": "Stock-Predictor",
+      "logo": "/logo/stock-pred.ico",
+      "carousel": [
+        "/thumbnails/Stock Predictor 1.png",
+        "/thumbnails/Stock Predictor 2.png",
+        "/thumbnails/Stock Predictor 3.png",
+        "/thumbnails/Stock Predictor 4.png",
+        "/thumbnails/Stock Predictor 5.png"
+      ]
+    },
+    {
+      "title": "ATS Resume Analyzer",
+      "type": ["Full Stack", "ChatBot"],
+      "desc": "An ATS (Applicant Tracking System) resume analyzer is a tool that simulates how employers' software scans and ranks your resume. It identifies issues that might cause your application to be automatically rejected, such as unreadable formatting or missing keywords.",
+      "link": "https://ats-resume-analyzer.vercel.app",
+      "frameworks": ["React.js", "FastAPI", "Langchain"],
+      "tools": ["Tailwind CSS", "ReCharts", "Ollama"],
+      "language": ["JavaScript", "Python"],
+      "database": ["FAISS", "PostgreSQL"],
+      "github": "ATS-Resume-Analyzer",
+      "logo": "/logo/PDF_file_icon.svg",
+      "carousel": ["/thumbnails/localhost_8501_.png"],
+      "id": 7
+    },
+    {
+      "title": "Kanban Anime",
+      "type": ["Front End"],
+      "desc": "This anime-themed Kanban board streamlines task management by categorising entries into 'Interested In,' 'Finished,' 'Keep Up With,' 'Left,' and 'Completed' columns. Users can dynamically manage their lists using drag-and-drop functionality, featuring custom character icons and vibrant aesthetics inspired by popular series.",
+      "link": "https://kanban-anime.vercel.app",
+      "frameworks": ["Angular"],
+      "tools": ["Tailwind CSS"],
+      "language": ["TypeScript"],
+      "github": "kanban-board",
+      "logo": "/logo/kanban.png",
+      "carousel": ["/thumbnails/kanban-anime.png"],
+      "id": 8
+    },
+    {
+      "title": "Scroll Animations",
+      "type": ["Front End"],
+      "desc": "This interactive frontend showcase utilizes GSAP to deliver a seamless journey through diverse scrolling techniques. Users can explore a variety of effects, including parallax backgrounds, scroll-triggered reveals, and horizontal transitions, all designed to enhance digital storytelling.",
+      "link": "https://scroll-animations-opal.vercel.app",
+      "frameworks": ["React.js"],
+      "tools": ["Tailwind CSS", "GSAP"],
+      "language": ["JavaScript"],
+      "github": "scroll-animations",
+      "logo": "/logo/scroll-bar.png",
+      "carousel": [
+        "/thumbnails/scroll-animations_teams.gif",
+        "/thumbnails/scroll-animations_split-into-three.gif",
+        "/thumbnails/scroll-animations_fractal-glass.gif",
+        "/thumbnails/scroll-animations_image-spiral.gif"
+      ],
+      "id": 9
+    },
+    {
+      "title": "TrackSeries Clone",
+      "type": ["Front End"],
+      "desc": "This high-fidelity web application recreates the TrackSeries experience, allowing users to discover, track, and manage their favorite TV shows through a sleek, data-driven interface. By integrating a TVDB API, the project features personalized watchlists, episode countdowns, and progress tracking with a modern, responsive design.",
+      "link": "https://trackseries-tv-clone.vercel.app",
+      "frameworks": ["Angular"],
+      "tools": ["Tailwind CSS"],
+      "language": ["TypeScript"],
+      "github": "TrackSeriesTV-clone",
+      "logo": "/logo/TrackSeriesTV.png",
+      "carousel": [
+        "/thumbnails/trackseries.tv_search_query=ta.png",
+        "/thumbnails/trackseries.tv_shows_2_tamon-s-b-side_1.png",
+        "/thumbnails/trackseries.tv_shows_2_tamon-s-b-side_1 (1).png",
+        "/thumbnails/trackseries.tv_shows_2_tamon-s-b-side_1 (2).png",
+        "/thumbnails/trackseries.tv_shows_2_tamon-s-b-side_1 (3).png",
+        "/thumbnails/trackseries.tv_myshows.png",
+        "/thumbnails/trackseries.tv_calendar.png"
+      ],
+      "id": 10
+    },
+    {
+      "title": "QuantaSight",
+      "type": ["Front End"],
+      "desc": "QuantaSight is a deep-tech machine intelligence startup based in the UK that focuses on accelerating research and development for the pharmaceutical and life sciences industries. The company provides an AI-powered platform designed to transform complex research tasks—such as drug discovery and clinical trial analysis—from weeks into minutes.",
+      "link": "https://quantasight.vercel.app",
+      "frameworks": ["React.js"],
+      "tools": ["Tailwind CSS"],
+      "language": ["JavaScript"],
+      "github": "QuantaSight",
+      "logo": "/logo/QS.ico",
+      "carousel": [
+        "/thumbnails/quantasight.vercel.app_xtract (1).png",
+        "/thumbnails/quantasight.vercel.app_xtract.png"
+      ],
+      "id": 11
+    },
+    {
+      "title": "Reads Analysis",
+      "type": ["Full Stack"],
+      "desc": "This full-stack application enables users to log their reading history and progress through a secure, database-driven dashboard. It leverages a data visualization library to transform reading habits into interactive analytics, highlighting trends like pages per day and genre distribution.",
+      "link": "https://read-analysis.vercel.app",
+      "frameworks": ["React.js", "Flask"],
+      "tools": ["Tailwind CSS", "ReCharts"],
+      "language": ["JavaScript", "Python"],
+      "database": ["PostgreSQL"],
+      "github": "read-analysis",
+      "logo": "/logo/reads.png",
+      "carousel": [
+        "/thumbnails/read-analysis.png",
+        "/thumbnails/read-analysis (1).png",
+        "/thumbnails/read-analysis (2).png",
+        "/thumbnails/read-analysis (3).png"
+      ],
+      "id": 12
+    },
+    {
+      "title": "VSCode Portfolio",
+      "type": ["Front End"],
+      "desc": "This interactive web portfolio utilizes a code editor aesthetic, featuring a sidebar for file navigation and a multi-tab interface to showcase projects and skills. Built with a focus on developer experience, it includes custom syntax highlighting, a functional terminal, and a responsive layout that mirrors a personalized VS Code environment.",
+      "link": "https://sumedhasinghrathor-vs-code-portfolio.vercel.app",
+      "frameworks": ["React.js"],
+      "tools": ["Tailwind CSS"],
+      "language": ["JavaScript"],
+      "github": "VSCode",
+      "logo": "/logo/VSC.png",
+      "carousel": [
+        "/thumbnails/vs_code.png",
+        "/thumbnails/vs_code_contact.png",
+        "/thumbnails/vs_code_contact (1).png"
+      ],
+      "id": 13
+    },
+    {
+      "title": "Fetch TV Shows",
+      "type": ["Front End"],
+      "desc": "This is a TV show fetching app built using Next.js and Tailwind CSS. It allows users to search for their favorite TV shows and view details about them.",
+      "link": "https://fetch-tv-shows.vercel.app/",
+      "frameworks": ["Next.js"],
+      "tools": ["Tailwind CSS"],
+      "language": ["JavaScript"],
+      "github": "Fetch-TVShows",
+      "logo": "/logo/tvs.ico",
+      "carousel": [
+        "/thumbnails/fetch-tv-shows.vercel.app_.png",
+        "/thumbnails/fetch-tv-shows.vercel.app_ (1).png",
+        "/thumbnails/fetch-tv-shows.vercel.app_ (2).png",
+        "/thumbnails/fetch-tv-shows.vercel.app_ (3).png"
+      ],
+      "id": 14
+    },
+    {
+      "title": "Pathfinding Visualizer",
+      "type": ["Front End"],
+      "desc": "This interactive web application visualizes classic pathfinding algorithms like Dijkstra’s and A* to find the shortest distance between two points on a grid. Users can place obstacles, adjust speed, and watch in real-time as the algorithm explores nodes to determine the most efficient path.",
+      "link": "https://pathfinding-visualizer.vercel.app",
+      "frameworks": ["React.js"],
+      "tools": ["Tailwind CSS"],
+      "language": ["TypeScript"],
+      "github": "pathfinding-visualizer",
+      "logo": "/logo/maze.png",
+      "carousel": [],
+      "id": 15
+    },
+    {
+      "title": "CRUD Blog",
+      "type": ["Full Stack"],
+      "desc": "A full-stack CRUD Blog built with Next.js and MongoDB enables users to create, read, update, and delete posts seamlessly. It features dynamic routing, server-side rendering, and a responsive UI backed by a scalable NoSQL database.",
+      "link": "https://sumedhasinghrathor-vs-code-portfolio.vercel.app",
+      "frameworks": ["React.js"],
+      "tools": ["Tailwind CSS"],
+      "language": ["JavaScript"],
+      "github": "CRUDBlog-NextJSMongoDB",
+      "logo": "/logo/CRUD.ico",
+      "carousel": [
+        "/thumbnails/nextjsmongodb-fullstack-blog.vercel.app_.png",
+        "/thumbnails/nextjsmongodb-fullstack-blog.vercel.app_ (1).png",
+        "/thumbnails/nextjsmongodb-fullstack-blog.vercel.app_ (2).png"
+      ],
+      "id": 16
+    },
+    {
+      "title": "Tetris Game Clone",
+      "type": ["Front End", "Game Clone"],
+      "desc": "Tetris Game Clone created with p5.js, players complete lines by moving differently shaped pieces, which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the uncleared lines reach the top of the playing field.",
+      "link": "https://sumedhasinghrathor.github.io/TetrisGame",
+      "frameworks": ["HTML/CSS", "p5.js"],
+      "language": ["JavaScript"],
+      "github": "TetrisGame",
+      "logo": "/logo/tetris.png",
+      "carousel": [
+        "/thumbnails/sumedhasinghrathor.github.io_TetrisGame_.png",
+        "/thumbnails/sumedhasinghrathor.github.io_TetrisGame_ (1).png"
+      ],
+      "id": 17
+    },
+    {
+      "title": "Pixel Pilot",
+      "type": ["Full Stack", "ChatBot"],
+      "desc": "This AI-powered assistant is fine-tuned on modern web development documentation and best practices to provide precise, context-aware guidance for frontend architectures. It streamlines the development process by generating clean code snippets, debugging complex UI transitions, and suggesting optimal state management strategies.",
+      "link": "https://pixel-pilot.vercel.app",
+      "frameworks": ["React.js", "FastAPI"],
+      "language": ["JavaScript", "Python"],
+      "github": "pixel-pilot",
+      "logo": "/logo/pp.ico",
+      "carousel": [],
+      "id": 18
+    },
+    {
+      "title": "Weather App",
+      "type": ["Front End"],
+      "desc": "This weather app, built with the OpenWeatherMap API and React.js, features allows users to easily access current conditions, humidity, and temperature for any location.",
+      "link": "https://stock-predictor.vercel.app",
+      "frameworks": ["React.js"],
+      "language": ["JavaScript"],
+      "github": "WeatherApp",
+      "logo": "/logo/cloud.png",
+      "carousel": [
+        "/thumbnails/sumedhasinghrathor-weatherdashboard.vercel.app_.png"
+      ],
+      "id": 19
+    },
+    {
+      "title": "Sliding Puzzle",
+      "type": ["Game Clone"],
+      "desc": "Created with Java, a sliding puzzle is a combination puzzle that challenges a player to slide pieces along certain routes to establish a certain end-configuration. The pieces to be moved consist of numbers from 1 to 15.",
+      "link": "",
+      "frameworks": ["Swing"],
+      "language": ["Java"],
+      "github": "SlidingPuzzle",
+      "logo": "",
+      "carousel": [],
+      "id": 20
+    },
+    {
+      "title": "Portfolio 2024",
+      "type": ["Front End"],
+      "desc": "Contains the the code and necessary items used in the portfolio. This website is made using only HTML, CSS and JS (using the GSAP library for animations).",
+      "link": "https://sumedhasinghrathor.github.io/portfolio-2024/",
+      "frameworks": ["HTML/CSS"],
+      "language": ["JavaScript"],
+      "tools": ["GSAP"],
+      "github": "portfolio-2024",
+      "logo": "/logo/ssr.ico",
+      "carousel": [],
+      "id": 21
+    },
+    {
+      "title": "Water Sort",
+      "type": ["Front End", "Game Clone"],
+      "desc": "This game is an engaging puzzle game available online that tests players' ability to reason and solve problems. Sorting variously colored water droplets into their appropriate containers using JavaScript based mechanisms is the aim of the game.",
+      "link": "https://sumedhasinghrathor.github.io/Water-Sort/",
+      "frameworks": ["HTML/CSS"],
+      "language": ["JavaScript"],
+      "github": "Water-Sort",
+      "logo": "/logo/water_sort.png",
+      "carousel": [
+        "/thumbnails/sumedhasinghrathor.github.io_Water-Sort_ (2).png",
+        "/thumbnails/sumedhasinghrathor.github.io_Water-Sort_.png",
+        "/thumbnails/sumedhasinghrathor.github.io_Water-Sort_ (1).png"
+      ],
+      "id": 22
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "content": "Languages",
+      "list": [
+        "C",
+        "HTML/CSS",
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": 2,
+      "content": "Frontend",
+      "list": ["React", "Next.js", "Angular", "Tailwind CSS", "Bootstrap"]
+    },
+    {
+      "id": 3,
+      "content": "Backend",
+      "list": [
+        "Express.js",
+        "Node.js",
+        "Spring Boot",
+        "Flask",
+        "FastAPI",
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": 4,
+      "content": "DevOps",
+      "list": ["Docker", "Kubernetes", "Git", "GitHub", "Jenkins"]
+    },
+    {
+      "id": 5,
+      "content": "Tools",
+      "list": ["Figma", "Power BI", "Tableau"]
+    }
+  ],
+  "contacts": [
+    {
+      "linkTo": "website",
+      "link": "https://sumedhasinghrathor.vercel.app/",
+      "id": 1,
+      "content": "sumedhasinghrathor.vercel.app"
+    },
+    {
+      "linkTo": "email",
+      "link": "mailto:sumedharathor@gmail.com",
+      "id": 2,
+      "content": "sumedharathor@gmail.com"
+    },
+    {
+      "linkTo": "linkedin",
+      "link": "https://www.linkedin.com/in/sumedha-singh-rathor-93874726a/",
+      "id": 3,
+      "content": "Sumedha Singh Rathor"
+    },
+    {
+      "linkTo": "behance",
+      "link": "https://www.behance.net/sumedhasinghrathor",
+      "id": 4,
+      "content": "SumedhaSinghRathor"
+    },
+    {
+      "linkTo": "hackerrank",
+      "link": "https://www.hackerrank.com/profile/sumedharathor",
+      "id": 5,
+      "content": "Sumedha Rathor"
+    },
+    {
+      "linkTo": "github",
+      "link": "https://github.com/SumedhaSinghRathor",
+      "id": 6,
+      "content": "SumedhaSinghRathor"
+    },
+    {
+      "linkTo": "leetcode",
+      "link": "https://leetcode.com/u/sumedharathor/",
+      "id": 7,
+      "content": "SumedhaRathor"
+    }
+  ]
+}
