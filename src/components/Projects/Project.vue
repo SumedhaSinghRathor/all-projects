@@ -42,9 +42,11 @@
       <button
         class="text-lg bg-black text-white py-1.5 px-3 rounded font-semibold cursor-pointer select-none"
         title="Graphical Analysis"
+        @click="showModal = true"
       >
         Analysis
       </button>
+      <Analysis v-if="showModal" @close="showModal = false" />
     </div>
     <section v-if="grid" class="grid grid-cols-3 gap-4 p-4">
       <div
@@ -101,7 +103,8 @@
       <div
         v-for="project in processedProjects"
         :key="project.id"
-        class="flex justify-between items-center p-2 border-b border-black/30 hover:bg-slate-500/20 cursor-pointer"
+        @click="toggleExtra(project)"
+        class="flex justify-between items-center p-2 border-b border-black/30 hover:bg-slate-500/10 cursor-pointer"
       >
         <div class="flex items-center gap-4">
           <img :src="project.logo" :alt="project.title" class="size-12" />
@@ -133,6 +136,7 @@
 
 <script>
 import ProjectService from "../../services/ProjectService";
+import Analysis from "./Analysis.vue";
 import Extra from "./Extra.vue";
 
 export default {
@@ -145,10 +149,11 @@ export default {
       sortConfig: "none",
       grid: true,
       selectedProject: null,
+      showModal: false,
     };
   },
 
-  components: { Extra },
+  components: { Extra, Analysis },
 
   computed: {
     processedProjects() {
