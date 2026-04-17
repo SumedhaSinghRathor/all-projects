@@ -322,7 +322,7 @@
       "title": "CRUD Blog",
       "type": ["Full Stack"],
       "desc": "A full-stack CRUD Blog built with Next.js and MongoDB enables users to create, read, update, and delete posts seamlessly. It features dynamic routing, server-side rendering, and a responsive UI backed by a scalable NoSQL database.",
-      "link": "https://sumedhasinghrathor-vs-code-portfolio.vercel.app",
+      "link": "https://nextjsmongodb-fullstack-blog.vercel.app/",
       "frameworks": ["React.js"],
       "tools": ["Tailwind CSS"],
       "language": ["JavaScript"],
@@ -366,13 +366,16 @@
       "title": "Weather App",
       "type": ["Front End"],
       "desc": "This weather app, built with the OpenWeatherMap API and React.js, features allows users to easily access current conditions, humidity, and temperature for any location.",
-      "link": "https://stock-predictor.vercel.app",
+      "link": "https://sumedhasinghrathor-weatherdashboard.vercel.app/",
       "frameworks": ["React.js"],
       "language": ["JavaScript"],
       "github": "WeatherApp",
       "logo": "/logo/cloud.png",
       "carousel": [
-        "/thumbnails/sumedhasinghrathor-weatherdashboard.vercel.app_.png"
+        "/thumbnails/sumedhasinghrathor-weatherdashboard.vercel.app_.png",
+        "/thumbnails/sumedhasinghrathor-weatherdashboard.vercel.app_ (1).png",
+        "/thumbnails/sumedhasinghrathor-weatherdashboard.vercel.app_ (2).png",
+        "/thumbnails/sumedhasinghrathor-weatherdashboard.vercel.app_ (3).png"
       ],
       "id": 19
     },
