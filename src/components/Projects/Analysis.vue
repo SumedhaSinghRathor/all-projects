@@ -9,26 +9,31 @@
         v-if="selected === 1"
         :data="processedData.type.data"
         :options="barOptions"
+        class="my-4"
       />
       <Bar
         v-if="selected === 2"
         :data="processedData.frameworks.data"
         :options="barOptions"
+        class="my-4"
       />
       <Pie
         v-if="selected === 3"
         :data="processedData.database.data"
         :options="pieOptions"
+        class="my-4"
       />
       <Pie
         v-if="selected === 4"
         :data="processedData.language.data"
         :options="pieOptions"
+        class="my-4"
       />
       <Bar
         v-if="selected === 5"
         :data="processedData.tools.data"
         :options="barOptions"
+        class="my-4"
       />
       <div class="text-sm">
         <div class="grid grid-cols-3 gap-2 mb-2">

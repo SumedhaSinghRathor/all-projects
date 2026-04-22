@@ -170,17 +170,17 @@
       ]
     },
     {
-      "title": "ATS Resume Analyzer",
-      "type": ["Full Stack", "ChatBot"],
-      "desc": "An ATS (Applicant Tracking System) resume analyzer is a tool that simulates how employers' software scans and ranks your resume. It identifies issues that might cause your application to be automatically rejected, such as unreadable formatting or missing keywords.",
+      "title": "AI Code Optimizer",
+      "type": ["Full Stack"],
+      "desc": "This FastAPI project integrates the GitHub API to fetch source code and utilizes DeepSeek’s reasoning capabilities to analyze performance bottlenecks. It provides developers with automated, actionable refactoring suggestions specifically aimed at reducing algorithmic time and space complexity.",
       "link": "https://ats-resume-analyzer.vercel.app",
-      "frameworks": ["React.js", "FastAPI", "Langchain"],
-      "tools": ["Tailwind CSS", "ReCharts", "Ollama"],
-      "language": ["JavaScript", "Python"],
+      "frameworks": ["Streamlit", "FastAPI", "Langchain"],
+      "tools": ["DeepSeek"],
+      "language": ["Python"],
       "database": ["FAISS", "PostgreSQL"],
-      "github": "ATS-Resume-Analyzer",
+      "github": "AI-CodeOptimizer",
       "logo": "/logo/PDF_file_icon.svg",
-      "carousel": ["/thumbnails/localhost_8501_.png"],
+      "carousel": ["/thumbnails/AI Code Optimizer.png"],
       "id": 7
     },
     {
