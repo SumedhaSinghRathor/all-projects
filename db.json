@@ -626,42 +626,49 @@
   "contacts": [
     {
       "linkTo": "website",
+      "logo": "https://cdn-icons-png.flaticon.com/512/1006/1006771.png",
       "link": "https://sumedhasinghrathor.vercel.app/",
       "id": 1,
       "content": "sumedhasinghrathor.vercel.app"
     },
     {
       "linkTo": "email",
+      "logo": "https://cdn-icons-png.flaticon.com/512/542/542638.png",
       "link": "mailto:sumedharathor@gmail.com",
       "id": 2,
       "content": "sumedharathor@gmail.com"
     },
     {
       "linkTo": "linkedin",
+      "logo": "https://cdn-icons-png.flaticon.com/512/3536/3536569.png",
       "link": "https://www.linkedin.com/in/sumedha-singh-rathor-93874726a/",
       "id": 3,
       "content": "Sumedha Singh Rathor"
     },
     {
       "linkTo": "behance",
+      "logo": "https://cdn-icons-png.flaticon.com/512/3536/3536860.png",
       "link": "https://www.behance.net/sumedhasinghrathor",
       "id": 4,
       "content": "SumedhaSinghRathor"
     },
     {
       "linkTo": "hackerrank",
+      "logo": "https://www.svgrepo.com/show/314107/hackerrank.svg",
       "link": "https://www.hackerrank.com/profile/sumedharathor",
       "id": 5,
       "content": "Sumedha Rathor"
     },
     {
       "linkTo": "github",
+      "logo": "https://cdn-icons-png.flaticon.com/512/733/733609.png",
       "link": "https://github.com/SumedhaSinghRathor",
       "id": 6,
       "content": "SumedhaSinghRathor"
     },
     {
       "linkTo": "leetcode",
+      "logo": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/leetcode-xp0gbbxtpmnkjk8uhdrmhg.png/leetcode-jj5yfhjdsmrt5j9xb3sec.png?_a=DATAiZAAZAA0",
       "link": "https://leetcode.com/u/sumedharathor/",
       "id": 7,
       "content": "SumedhaRathor"
