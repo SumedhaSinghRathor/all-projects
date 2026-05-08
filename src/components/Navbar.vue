@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex justify-between p-2 bg-black text-white rounded hover:outline-2 outline-offset-4 outline-red-500"
-  >
+  <div class="flex justify-between p-2 bg-black text-white rounded">
     <RouterLink to="/" class="font-bold">/* HOME */</RouterLink>
     <nav class="flex gap-6">
       <router-link
