@@ -2,7 +2,7 @@
   <div
     v-if="selectExtra"
     class="fixed inset-0 bg-black/30"
-    @click="$emit('close')"
+    @click="$router.back()"
   ></div>
   <div
     :class="[
@@ -39,7 +39,7 @@
     </div>
     <i
       class="bx bx-x absolute top-2 right-2 text-3xl cursor-pointer"
-      @click="$emit('close')"
+      @click="$router.back()"
     ></i>
   </div>
 </template>

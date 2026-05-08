@@ -3,8 +3,14 @@ import Project from "../components/Projects/Project.vue";
 import Skills from "../components/Skills/Skills.vue";
 import Experience from "../components/Experience/Experience.vue";
 import Contacts from "../components/Contacts/Contacts.vue";
+import Home from "../components/Home.vue";
 
 const routes = [
+    {
+        path: '/',
+        name: 'Home',
+        component: Home
+    },
     {
         path: '/projects/:id?',
         name: 'Projects',
