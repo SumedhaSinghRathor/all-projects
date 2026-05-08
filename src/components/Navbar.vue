@@ -2,7 +2,7 @@
   <div
     class="flex justify-between items-center p-2 bg-black text-white rounded"
   >
-    <RouterLink to="/" class="bx bxs-home font-bold text-xl"></RouterLink>
+    <RouterLink to="/" class="bx bxs-home font-bold text-2xl"></RouterLink>
     <nav class="flex gap-6">
       <router-link
         v-for="link in links"
