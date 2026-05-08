@@ -4,6 +4,9 @@
       "id": 1,
       "designation": "Graphic Designer Intern",
       "company": "Pehchaan the Street School",
+      "logo": "/company-logo/pehchaan.png",
+      "started": "Jan 2024",
+      "finished": "Mar 2024",
       "description": [
         "Designed and produced over 84 Instagram stories and posts, maintaining consistency with the company's established brand identity, tone, and visual style.",
         "Collaborated closely with the team by receiving weekly goals, delivering the output that aligned with brand objectives within the designated timeframe.",
@@ -14,6 +17,9 @@
       "id": 2,
       "designation": "Summer Trainee",
       "company": "GAIL (India) Limited",
+      "logo": "/company-logo/gail.png",
+      "started": "May 2024",
+      "finished": "Jul 2024",
       "description": [
         "Delved into SAP ABAP and gained valuable insights into applications at GAIL",
         "Learned about the company's upcoming transition from ABAP to S/4 HANA",
@@ -24,6 +30,9 @@
       "id": 3,
       "designation": "Lead Coordinator of UI/UX Domain",
       "company": "E LABS",
+      "logo": "/company-logo/elabs.png",
+      "started": "Jan 2025",
+      "finished": null,
       "description": [
         "Created 10+ posts using Figma or Photoshop for their Instagram page",
         "Designed and protoyped the official website in Figma within 2 weeks",
@@ -35,6 +44,9 @@
       "id": 4,
       "designation": "Trainee Analyst",
       "company": "Wissen Technology",
+      "logo": "/company-logo/wissen.png",
+      "started": "Jan 2026",
+      "finished": null,
       "description": [
         "As an intern you will be working on some of the any of our company projects.",
         "You shall also be expected to perform duties which are customarily associated with such positions.",
@@ -387,7 +399,7 @@
       "frameworks": ["Swing"],
       "language": ["Java"],
       "github": "SlidingPuzzle",
-      "logo": "",
+      "logo": "/logo/sliding.png",
       "carousel": [],
       "id": 20
     },
@@ -454,7 +466,7 @@
         "/thumbnails/TBR_add.png",
         "/thumbnails/TBR_favorites.png"
       ],
-      "id": 23
+      "id": 24
     }
   ],
   "skills": [

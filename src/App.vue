@@ -4,7 +4,7 @@ import Project from "./components/Projects/Project.vue";
 </script>
 
 <template>
-  <section class="flex flex-col p-4 gap-4">
+  <section class="flex flex-col p-4 gap-4 min-h-screen">
     <Navbar />
     <hr />
     <router-view />

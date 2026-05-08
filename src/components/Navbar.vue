@@ -1,6 +1,8 @@
 <template>
-  <div class="flex justify-between p-2 bg-black text-white rounded">
-    <RouterLink to="/" class="font-bold">/* HOME */</RouterLink>
+  <div
+    class="flex justify-between items-center p-2 bg-black text-white rounded"
+  >
+    <RouterLink to="/" class="bx bxs-home font-bold text-xl"></RouterLink>
     <nav class="flex gap-6">
       <router-link
         v-for="link in links"
