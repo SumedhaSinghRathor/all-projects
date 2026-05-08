@@ -8,8 +8,13 @@
       <ul class="flex flex-wrap gap-2">
         <li
           v-for="item in skill.list"
-          :key="item"
-          class="bg-gray-300 text-black px-4 py-2 rounded-full shrink-0 flex items-center gap-2 text-sm cursor-pointer"
+          :key="item.name"
+          :class="[
+            'px-4 py-2 rounded-full shrink-0 flex items-center gap-2 text-sm cursor-pointer',
+            selectedSkill?.name === item.name
+              ? 'bg-black text-white'
+              : 'bg-gray-300 text-black',
+          ]"
           @click="toggleSkill(item)"
         >
           <img :src="item.url" :alt="item.name" class="size-4" />

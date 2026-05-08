@@ -419,6 +419,42 @@
         "/thumbnails/sumedhasinghrathor.github.io_Water-Sort_ (1).png"
       ],
       "id": 22
+    },
+    {
+      "title": "All Info",
+      "type": ["Front End"],
+      "desc": "This sleek, centralized dashboard provides a comprehensive snapshot of a developer’s professional identity by integrating contact details, technical skills, and key projects into a single interface. Designed for maximum clarity and impact, it streamlines the hiring process by showcasing professional experience and portfolio highlights through a responsive, modern layout.",
+      "link": "",
+      "frameworks": ["Vue"],
+      "language": ["JavaScript"],
+      "tools": ["Tailwind CSS"],
+      "github": "all-projects",
+      "logo": "/logo/vue.png",
+      "carousel": [
+        "/thumbnails/all-info_projects.png",
+        "/thumbnails/all-info_skills.png"
+      ],
+      "id": 23
+    },
+    {
+      "title": "My Media Vault",
+      "type": ["Front End"],
+      "desc": "This project is a personal Media Vault, a centralized React dashboard designed to log and categorized every piece of entertainment you consume. Instead of jumping between apps like MyAnimeList, Goodreads, and Letterboxd, this app brings your entire digital library into one customisable interface.",
+      "link": "https://sumedhasinghrathor-mediavault.vercel.app",
+      "frameworks": ["React"],
+      "language": ["JavaScript"],
+      "tools": ["Tailwind CSS"],
+      "github": "Manga-TBR",
+      "logo": "/logo/TBR.png",
+      "carousel": [
+        "/thumbnails/TBR.png",
+        "/thumbnails/TBR_content_content_type=manga.png",
+        "/thumbnails/TBR_analysis_content_type=manga.png",
+        "/thumbnails/TBR_randomized.png",
+        "/thumbnails/TBR_add.png",
+        "/thumbnails/TBR_favorites.png"
+      ],
+      "id": 23
     }
   ],
   "skills": [
@@ -566,6 +602,10 @@
         {
           "name": "GSAP",
           "url": "https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg"
+        },
+        {
+          "name": "Framer Motion",
+          "url": "https://cdn.worldvectorlogo.com/logos/framer-motion.svg"
         }
       ]
     }
