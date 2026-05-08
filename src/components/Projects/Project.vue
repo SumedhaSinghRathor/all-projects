@@ -1,8 +1,6 @@
 <template>
-  <section class="w-screen h-screen p-2 bg-[#fffafa]">
-    <h1 class="text-4xl text-center font-bold">Potential Projects</h1>
-    <br />
-    <div class="w-full flex items-center gap-4 p-2 text-2xl">
+  <section class="w-full h-full">
+    <div class="w-full flex items-center gap-4 text-2xl mb-4">
       <input
         name="search"
         v-model="search"
@@ -48,7 +46,7 @@
       </button>
       <Analysis v-if="showModal" @close="showModal = false" />
     </div>
-    <section v-if="grid" class="grid grid-cols-3 gap-4 p-4">
+    <section v-if="grid" class="grid grid-cols-3 gap-4">
       <div
         v-for="project in processedProjects"
         :key="project.id"
@@ -99,7 +97,7 @@
         >
       </div>
     </section>
-    <section v-else class="grid grid-col-1 p-2">
+    <section v-else class="grid grid-col-1">
       <div
         v-for="project in processedProjects"
         :key="project.id"
@@ -123,7 +121,8 @@
           :href="`https://github.com/SumedhaSinghRathor/${project.github}`"
           target="_blank"
           rel="noreferrer"
-          ><div class="flex gap-1 bg-gray-300 px-2 rounded-full font-semibold">
+        >
+          <div class="flex gap-1 bg-gray-300 px-2 rounded-full font-semibold">
             <i class="bx bxl-github text-2xl"></i>
             <p>SumedhaSinghRathor/{{ project.github }}</p>
           </div></a

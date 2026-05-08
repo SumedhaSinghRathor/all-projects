@@ -173,13 +173,13 @@
       "title": "AI Code Optimizer",
       "type": ["Full Stack"],
       "desc": "This FastAPI project integrates the GitHub API to fetch source code and utilizes DeepSeek’s reasoning capabilities to analyze performance bottlenecks. It provides developers with automated, actionable refactoring suggestions specifically aimed at reducing algorithmic time and space complexity.",
-      "link": "https://ats-resume-analyzer.vercel.app",
+      "link": "https://ai-code-optimizer.vercel.app",
       "frameworks": ["Streamlit", "FastAPI", "Langchain"],
       "tools": ["DeepSeek"],
       "language": ["Python"],
       "database": ["FAISS", "PostgreSQL"],
       "github": "AI-CodeOptimizer",
-      "logo": "/logo/PDF_file_icon.svg",
+      "logo": "/logo/optimize.png",
       "carousel": ["/thumbnails/AI Code Optimizer.png"],
       "id": 7
     },
@@ -426,42 +426,144 @@
       "id": 1,
       "content": "Languages",
       "list": [
-        "C",
-        "HTML/CSS",
-        "JavaScript",
-        "TypeScript",
-        "Java",
-        "Python",
-        "SQL"
+        { "name": "C", "url": "https://cdn.worldvectorlogo.com/logos/c-1.svg" },
+        {
+          "name": "HTML",
+          "url": "https://cdn.worldvectorlogo.com/logos/c-1.svg"
+        },
+        {
+          "name": "CSS",
+          "url": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+        },
+        {
+          "name": "JavaScript",
+          "url": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+        },
+        {
+          "name": "TypeScript",
+          "url": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+        },
+        {
+          "name": "Java",
+          "url": "https://cdn.worldvectorlogo.com/logos/java-4.svg"
+        },
+        {
+          "name": "Python",
+          "url": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+        },
+        {
+          "name": "SQL",
+          "url": "https://img.icons8.com/color/48/mysql-logo.png"
+        }
       ]
     },
     {
       "id": 2,
       "content": "Frontend",
-      "list": ["React", "Next.js", "Angular", "Tailwind CSS", "Bootstrap"]
+      "list": [
+        {
+          "name": "React",
+          "url": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+        },
+        {
+          "name": "Next.js",
+          "url": "https://img.icons8.com/fluency/48/nextjs.png"
+        },
+        {
+          "name": "Angular",
+          "url": "https://img.icons8.com/?size=256w&id=l9a5tcSnBwcf&format=png"
+        },
+        {
+          "name": "Tailwind CSS",
+          "url": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "url": "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
+        },
+        {
+          "name": "Vue",
+          "url": "https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg"
+        }
+      ]
     },
     {
       "id": 3,
       "content": "Backend",
       "list": [
-        "Express.js",
-        "Node.js",
-        "Spring Boot",
-        "Flask",
-        "FastAPI",
-        "MongoDB",
-        "PostgreSQL"
+        {
+          "name": "Express.js",
+          "url": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000"
+        },
+        {
+          "name": "Node.js",
+          "url": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+        },
+        {
+          "name": "Spring Boot",
+          "url": "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
+        },
+        {
+          "name": "Flask",
+          "url": "https://cdn.worldvectorlogo.com/logos/flask.svg"
+        },
+        {
+          "name": "FastAPI",
+          "url": "https://cdn.worldvectorlogo.com/logos/fastapi-1.svg"
+        },
+        {
+          "name": "MongoDB",
+          "url": "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "url": "https://cdn.worldvectorlogo.com/logos/postgresql.svg"
+        }
       ]
     },
     {
       "id": 4,
       "content": "DevOps",
-      "list": ["Docker", "Kubernetes", "Git", "GitHub", "Jenkins"]
+      "list": [
+        {
+          "name": "Docker",
+          "url": "https://cdn.worldvectorlogo.com/logos/docker-4.svg"
+        },
+        {
+          "name": "Kubernetes",
+          "url": "https://cdn.worldvectorlogo.com/logos/kubernets.svg"
+        },
+        {
+          "name": "Git",
+          "url": "https://cdn.worldvectorlogo.com/logos/git-icon.svg"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000"
+        },
+        {
+          "name": "Jenkins",
+          "url": "https://cdn.worldvectorlogo.com/logos/jenkins-1.svg"
+        }
+      ]
     },
     {
       "id": 5,
       "content": "Tools",
-      "list": ["Figma", "Power BI", "Tableau"]
+      "list": [
+        {
+          "name": "Figma",
+          "url": "https://cdn.worldvectorlogo.com/logos/figma-icon.svg"
+        },
+        {
+          "name": "Power BI",
+          "url": "https://img.icons8.com/fluency/48/power-bi-2021.png"
+        },
+        {
+          "name": "Tableau",
+          "url": "https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
+        }
+      ]
     }
   ],
   "contacts": [
