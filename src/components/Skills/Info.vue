@@ -1,7 +1,7 @@
 <template>
   <section
     v-if="selectedSkill"
-    class="fixed bottom-4 right-4 w-xs bg-white shadow-lg border rounded p-4"
+    class="fixed bottom-4 right-4 w-xs bg-white shadow-2xl border rounded p-4"
   >
     <div class="flex items-center justify-between mb-2">
       <div class="flex items-center gap-4">
@@ -16,7 +16,12 @@
 
     <ul v-if="filteredProjects.length" class="list-decimal list-inside">
       <li v-for="project in filteredProjects" :key="project.id">
-        {{ project.title }}
+        <router-link
+          class="hover:underline cursor-pointer"
+          :to="`/projects/${project.id}`"
+        >
+          {{ project.title }}
+        </router-link>
       </li>
     </ul>
 

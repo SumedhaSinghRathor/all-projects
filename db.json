@@ -443,6 +443,7 @@
       "github": "all-projects",
       "logo": "/logo/vue.png",
       "carousel": [
+        "/thumbnails/all-info_contacts.png",
         "/thumbnails/all-info_experience.png",
         "/thumbnails/all-info_projects.png",
         "/thumbnails/all-info_skills.png"

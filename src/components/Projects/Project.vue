@@ -78,7 +78,7 @@
                 'bx bx-dots-horizontal-rounded rounded-full hover:bg-slate-500/20 cursor-pointer',
                 selectedProject === project ? 'bg-slate-500/40' : '',
               ]"
-              @click="toggleExtra(project)"
+              @click.stop="toggleExtra(project)"
             ></i>
           </div>
         </div>
@@ -101,7 +101,7 @@
       <div
         v-for="project in processedProjects"
         :key="project.id"
-        @click="toggleExtra(project)"
+        @click.stop="toggleExtra(project)"
         class="flex justify-between items-center p-2 border-b border-black/30 hover:bg-slate-500/10 cursor-pointer"
       >
         <div class="flex items-center gap-4">
@@ -130,7 +130,7 @@
       </div>
     </section>
   </section>
-  <Extra :selectExtra="selectedProject" @close="selectedProject = null" />
+  <Extra :selectExtra="selectedProject" @close="closeExtra" />
 </template>
 
 <script>
@@ -173,9 +173,22 @@ export default {
     async getProjects() {
       try {
         this.projects = await ProjectService.getProjects();
+        this.syncProjectFromRoute();
       } catch (error) {
         console.error("Error fetching projects:", error);
       }
+    },
+
+    syncProjectFromRoute() {
+      const id = Number(this.$route.params.id);
+
+      if (!id) {
+        this.selectedProject = null;
+        return;
+      }
+
+      this.selectedProject =
+        this.projects.find((project) => project.id === id) || null;
     },
 
     toggleSort() {
@@ -188,7 +201,15 @@ export default {
     },
 
     toggleExtra(project) {
-      this.selectedProject = this.selectedProject === project ? null : project;
+      if (this.selectedProject?.id === project.id) {
+        this.closeExtra();
+      } else {
+        this.$router.push(`/projects/${project.id}`);
+      }
+    },
+
+    closeExtra() {
+      this.$router.push("/projects");
     },
   },
 
@@ -215,15 +236,21 @@ export default {
         this.grid = true;
         localStorage.removeItem("gridView");
       }
-    } else {
-      this.grid = true;
     }
   },
 
   watch: {
+    "$route.params.id": {
+      immediate: true,
+      handler() {
+        this.syncProjectFromRoute();
+      },
+    },
+
     sortConfig(val) {
       localStorage.setItem("sort", JSON.stringify(val));
     },
+
     grid(val) {
       localStorage.setItem("gridView", JSON.stringify(val));
     },

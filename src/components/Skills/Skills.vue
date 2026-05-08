@@ -10,7 +10,7 @@
           v-for="item in skill.list"
           :key="item.name"
           :class="[
-            'px-4 py-2 rounded-full shrink-0 flex items-center gap-2 text-sm cursor-pointer',
+            'px-4 py-2 rounded-full shrink-0 flex items-center gap-2 text-sm cursor-pointer select-none',
             selectedSkill?.name === item.name
               ? 'bg-black text-white'
               : 'bg-gray-300 text-black',

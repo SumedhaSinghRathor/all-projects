@@ -50,7 +50,7 @@ import ImgSet from "./ImgSet.vue";
 export default {
   name: "Extra",
   props: {
-    selectExtra: Object,
+    selectExtra: { type: Object, default: null },
   },
   components: { ImgSet },
   computed: {
@@ -58,10 +58,9 @@ export default {
       return this.selectExtra || {};
     },
     filteredKeys() {
-      const obj = this.selectExtra || {};
       return Object.fromEntries(
-        Object.entries(obj).filter(
-          ([key, val]) => Array.isArray(val) && key !== "carousel",
+        Object.entries(this.project).filter(
+          ([key, value]) => Array.isArray(value) && key !== "carousel",
         ),
       );
     },

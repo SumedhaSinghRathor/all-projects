@@ -6,18 +6,21 @@ import Contacts from "../components/Contacts/Contacts.vue";
 
 const routes = [
     {
-        path: '/projects',
+        path: '/projects/:id?',
         name: 'Projects',
         component: Project
-    }, {
+    },
+    {
         path: '/skills',
         name: 'Skills',
         component: Skills
-    }, {
+    },
+    {
         path: '/contacts',
         name: 'Contacts',
         component: Contacts
-    }, {
+    },
+    {
         path: '/experience',
         name: 'Experience',
         component: Experience
@@ -25,7 +28,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(''),
+    history: createWebHistory(),
     routes
 })
 
